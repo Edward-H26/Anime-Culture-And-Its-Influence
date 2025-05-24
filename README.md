@@ -187,17 +187,29 @@ Maintaining a comprehensive anime database is a daunting task for any organizati
 
 Sequence of steps required for someone else to reproduce our results.
 
+## Create A Folder For Our Analysis
+
+```mkdir test```
+
+## Move Into The Folder
+
+```cd test```
+
 ## Create A Local Copy 
 
 Create a local copy on your machine
 
 ```git clone https://github.com/illinois-data-curation/is477-sp25-Group-8 ```
 
+## Move Into The Folder
+
+```cd is477-sp25-Group-8```
+
 ## Build Virtual Environment
 
 Build a virtual environment named 'venv'
 
-```python3 -m venv venv```
+```python3.12 -m venv venv ```
 
 ## Activate Virtual Environment
 
@@ -206,6 +218,8 @@ On macOS and Linux
 ```source venv/bin/activate```
 
 On Windows
+
+```Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned```
 
 ```.\venv\Scripts\activate```
 
